@@ -59,7 +59,7 @@ public class GeneralClass {
 		// can also be implemented using <Generic>>
 	}
 
-	public bool equal (Object another_object_of_unknown_kind){
+	public boolean equal (Object another_object_of_unknown_kind){
 		if (!another_object_of_unknown_kind.instanceOf(GeneralClass))
 			return False;
 		// check if they are the same kind. If not, then they are not euqal.
@@ -68,7 +68,7 @@ public class GeneralClass {
 				return true;
 			//note that I assume you only have to compare one value. You could compare more than one values.
 		}
-		return False;
+		return false;
 		// none of the condition above fits the problem. False by default.
 	}
 } //end of class
